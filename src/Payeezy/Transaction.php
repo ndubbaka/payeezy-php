@@ -12,7 +12,7 @@ class Payeezy_Transaction
 
   private $merchantToken;
 
-  public function __construct($client)
+  public function __construct($client      )
   {
     $this->baseURL = $client->getUrl();
     $this->apiKey = $client->getApiKey();
